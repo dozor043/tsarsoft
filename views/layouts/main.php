@@ -51,8 +51,8 @@ AppAsset::register($this);
             ],
             [
                 'name' => 'development_shop',
-                'label' => 'Интернет-магазин',
-                'hint' => 'От 50 тыс. рублей',
+                'label' => 'Мобильная разработка',
+                'hint' => 'От 99 тыс. рублей',
             ],
             [
                 'name' => 'development_order',
@@ -431,7 +431,7 @@ AppAsset::register($this);
                         <a href="#comp-1" class="mosaic-link fancybox">Веб-дизайн</a>
                     </li>
                     <li class="mosaic-elem big second">
-                        <a href="#comp-2" class="mosaic-link fancybox">Разработка сайтов</a>
+                        <a href="#comp-2" class="mosaic-link fancybox">Разработка</a>
                     </li>
                     <li class="mosaic-elem big third">
                         <a href="#comp-3" class="mosaic-link fancybox">Интернет-маркетинг</a>
@@ -734,7 +734,7 @@ AppAsset::register($this);
                         <img src="/img/port-con.png" class="con-img">
                     </div>
                     <div class="description-text">
-                                        <span>Консультация по разработке логотипа и фирменного стиля Российского Государственного Профессионально-педагогического Университета
+                                        <span>Разработка мобильного приложения "ПрИнЦ" (OS Android) для интерактивного обучения сварщиков
                                         </span>
                     </div>
                     <div class="close"></div>
@@ -784,7 +784,7 @@ AppAsset::register($this);
                         <div class="header-text">Обратная связь</div>
                         <div class="header-hint">Царьсофт открыт миру</div>
                     </h3>
-                    <div class="call-me">Нам можно позвонить <span>8-343-345-91-85</span> или написать</div>
+                    <div class="call-me">Нам можно позвонить <span>+7-919-399-7833</span> или написать</div>
                     <div class="wrap-form">
                         <?php $form = \yii\widgets\ActiveForm::begin([
                             'options' => ['action'=>'site/feedback']
@@ -861,7 +861,7 @@ AppAsset::register($this);
                         <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter"></div>
                     </div>
                 </div>
-                <div class="bottom-line">
+                <div class="bottom-line" style="margin-top: 84px; background: #000; line-height: 2;">
                     <div class="cont wrap-column">
                         <div class="column copyright">Copyright (С) Царь-софт, 2013-2014</div>
                         <div class="column Gods-help">Разработно с Божьей помощью</div>
@@ -872,7 +872,7 @@ AppAsset::register($this);
     </div>
     </div>
 
-    <div id="comp-1" class="popup">
+    <div id="comp-1" class="popup" style="display: none">
         <div class="header-popup">Веб-дизайн</div>
         <div class="wrap-popup-form">
             <form class="form popup-form">
@@ -895,8 +895,8 @@ AppAsset::register($this);
             </form>
         </div>
     </div>
-    <div id="comp-2" class="popup">
-        <div class="header-popup">Разработка сайтов</div>
+    <div id="comp-2" class="popup" style="display: none">
+        <div class="header-popup">Разработка</div>
         <div class="wrap-popup-form">
             <form class="form popup-form">
                 <?
@@ -918,7 +918,7 @@ AppAsset::register($this);
             </form>
         </div>
     </div>
-    <div id="comp-3" class="popup">
+    <div id="comp-3" class="popup" style="display: none">
         <div class="header-popup">Интернет-маркетинг</div>
         <div class="wrap-popup-form">
             <form class="form popup-form">
@@ -941,7 +941,7 @@ AppAsset::register($this);
             </form>
         </div>
     </div>
-    <div id="comp-4" class="popup">
+    <div id="comp-4" class="popup" style="display: none">
         <div class="header-popup">Консалтинг</div>
         <div class="wrap-popup-form">
             <form class="form popup-form">
