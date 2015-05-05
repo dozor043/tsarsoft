@@ -14,10 +14,10 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="IT-компания «Царь Софт» - разрабатываем веб-решения, мобильные приложения и фирменный стиль в лучших русских традициях">
         <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
-
         <link rel="stylesheet" type="text/css" href="/css/styles.css">
         <!--<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">-->
         <?php $this->head() ?>
@@ -782,7 +782,7 @@ AppAsset::register($this);
                 <div class="wrap-content">
                     <h3 class="header h3">
                         <div class="header-text">Обратная связь</div>
-                        <div class="header-hint">Царьсофт открыт миру</div>
+                        <div class="header-hint">Царь софт открыт миру</div>
                     </h3>
                     <div class="call-me">Нам можно позвонить <span>+7-919-399-7833</span> или написать</div>
                     <div class="wrap-form">
@@ -863,7 +863,7 @@ AppAsset::register($this);
                 </div>
                 <div class="bottom-line" style="margin-top: 84px; background: #000; line-height: 2;">
                     <div class="cont wrap-column">
-                        <div class="column copyright">Copyright (С) Царь-софт, 2013-2014</div>
+                        <div class="column copyright">Copyright (С) Царь софт, 2013-2014</div>
                         <div class="column Gods-help">Разработно с Божьей помощью</div>
                     </div>
                 </div>
