@@ -36,7 +36,7 @@ AppAsset::register($this);
                     <h1 class="h1">Разрабатываем в лучших русских традициях</h1>
                 </div>
                 <div class="phone column">
-                    <a href="callto:83433459185" class="link link-special link-dashed">8 (343) 345-91-85</a>
+                    <a href="callto:89193997833" class="link link-special link-dashed">+7-919-399-7833</a>
                 </div>
             </div>
         </div>
